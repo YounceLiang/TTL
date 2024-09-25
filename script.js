@@ -55,7 +55,7 @@ document.getElementById('customerForm').addEventListener('submit', async functio
     `;
 
     try {
-        const response = await fetch('http://localhost:5000/proxy', {
+        const response = await fetch('https://drymundanequadrant.younceliang.repl.co/proxy', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
